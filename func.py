@@ -9,9 +9,9 @@ class Task:
         self.name = newName
     
     def changeValue(self):
-        if self.value == str(0):
-            self.value = str(1)
+        if self.value == False:
+            self.value = True
         else:
-            self.value = str(0)
+            self.value = False
 
     
